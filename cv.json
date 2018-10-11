@@ -26,6 +26,11 @@
   ],
   "projects": [
     {
+      "name": "<a class='underline' href='https://github.com/RegSimple/FrontEndRegSimple' target='_blank'>RegSimple.io</a>",
+      "details": "A platform to allow users to easily digest and compare legislation between countries",
+      "stack": "Elm,  Express, Postgres"
+    },
+    {
       "name": "<a class='underline' href='https://github.com/dwyl/tudo' target='_blank'>DWYL - Help Wanted</a>",
       "details": "Dashboard to allow users to contribute easily to open source projects",
       "stack": "Elixir, Phoenix, Taychons, Postgres"
@@ -43,17 +48,12 @@
     {
       "name": "<a class='underline' href='https://github.com/jbarget/cv-amp' target='_blank'>CvAmp</a>",
       "details": "A JSON cv builder that produces mobile-first valid AMP HTML, used to build this CV",
-      "stack": "Elixir, Taychons"
+      "stack": "Elixir, Taychons (Rebuilt in Node & Handlebars)"
     },
     {
       "name": "<a class='underline' href='http://dni.authored.io' target='_blank'>Authored DNI</a>",
       "details": "Google funded research project, in conjunction with The Financial Times, into delivering feedback via notifications to improve workflow",
       "stack": "Node (Express), AWS Lambda, React, AWS API Gateway"
-    },
-    {
-      "name": "<a class='underline' href='https://www.odysseon.com' target='_blank'>Odysseon</a>",
-      "details": "Adventure travel platform connecting guides and travellers",
-      "stack": "Node (Express), React, Alt"
     }
   ],
   "work": [

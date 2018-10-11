@@ -1,6 +1,8 @@
 ## CV AMP
 
-Generate your mobile-first Google AMP compliant CV using just a json file...
+Generate your mobile-first Google AMP compliant CV using just a JSON file...
+
+Getting Started
 
 1. Clone the repo: `git clone`
 1. Move into the cv-amp directory: `cd cv-amp`
