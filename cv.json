@@ -58,8 +58,13 @@
   ],
   "work": [
     {
+      "company": "<a href='https://www.emoticast.com' target='_blank'>RegSimple</a>",
+      "from_to": "May 2018 - Oct 2018",
+      "details": "Full stack developer"
+    },
+    {
       "company": "<a href='https://www.emoticast.com' target='_blank'>Emoticast</a>",
-      "from_to": "Jan 2018 - present",
+      "from_to": "Jan 2018 - May 2018",
       "details": "Full stack developer working mainly on frontend"
     },
     {
