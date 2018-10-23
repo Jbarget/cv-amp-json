@@ -5,15 +5,15 @@ const path = require("path");
 const handlebars = require("handlebars");
 const puppeteer = require("puppeteer");
 
-const context = fs.readFileSync("cv.json").toString("utf-8");
+const data = fs.readFileSync("cv.json").toString("utf-8");
 const isPDF = process.argv[2] === "--pdf";
 const source = isPDF
   ? console.log("PDF version") || fs.readFileSync("cv-pdf.hbs").toString()
   : console.log("HTML version") || fs.readFileSync("cv.hbs").toString();
 
 const template = handlebars.compile(source);
-
-const html = template(JSON.parse(context));
+const context = JSON.parse(data);
+const html = template(context);
 
 if (!isPDF) fs.writeFileSync("index.html", html);
 else {
@@ -25,7 +25,7 @@ else {
       },
       displayHeaderFooter: false,
       printBackground: true,
-      path: "cv.pdf"
+      path: `${context.basic.first_name}_${context.basic.last_name}.pdf`
     };
     const browser = await puppeteer.launch({
       args: ["--no-sandbox"],
