@@ -60,7 +60,12 @@
   ],
   "work": [
     {
-      "company": "<a href='https://www.emoticast.com' target='_blank'>RegSimple</a>",
+      "company": "<a href='https://www.fatllama.com' target='_blank'>Fat Llama</a>",
+      "from_to": "Nov 2018 - present",
+      "details": "Frontend Developer"
+    },
+    {
+      "company": "<a href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
       "from_to": "May 2018 - Oct 2018",
       "details": "Full stack developer"
     },
