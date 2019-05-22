@@ -28,6 +28,16 @@
   ],
   "projects": [
     {
+      "name": "<a class='underline' href='https://www.spill.chat' target='_blank'>Spill</a>",
+      "details": "A platform giving employees direct access to message-based therapy",
+      "stack": "React/React Native, Redux"
+    },
+    {
+      "name": "<a class='underline' href='https://www.fatllama.com' target='_blank'>Fat Llama</a>",
+      "details": "A peer to peer rental platform",
+      "stack": "React/React Native, Redux, Hapi, Postgres"
+    },
+    {
       "name": "<a class='underline' href='https://github.com/RegSimple/FrontEndRegSimple' target='_blank'>RegSimple.io</a>",
       "details": "A platform to allow users to easily digest and compare legislation between countries",
       "stack": "Elm,  Express, Postgres"
@@ -40,7 +50,7 @@
     {
       "name": "<a class='underline' href='https://www.authored.io' target='_blank'>Authored.io</a>",
       "details": "A platform to allow journalists to create, curate and deliver content easily",
-      "stack": "Node (Express), React, Redux"
+      "stack": "Node (Express), React, Redux, AWS"
     },
     {
       "name": "Financial Times - Tag Metrics API",
@@ -60,8 +70,13 @@
   ],
   "work": [
     {
+      "company": "<a href='https://www.spill.chat' target='_blank'>Spill</a>",
+      "from_to": "May 2019 - present",
+      "details": "Full stack developer"
+    },
+    {
       "company": "<a href='https://www.fatllama.com' target='_blank'>Fat Llama</a>",
-      "from_to": "Nov 2018 - present",
+      "from_to": "Nov 2018 - March 2019",
       "details": "Full stack developer"
     },
     {
