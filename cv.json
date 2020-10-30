@@ -3,7 +3,7 @@
   "basic": {
     "first_name": "Justen",
     "last_name": "Barget",
-    "image": "https://avatars1.githubusercontent.com/u/11725595?v=4&u=223c17306393cf8040ab76345ad8666c99360295&s=400",
+    "image": "https://user-images.githubusercontent.com/11725595/97690281-0fab3c00-1a9d-11eb-932e-051a9ce07aa4.png",
     "email": "dear.justen@gmail.com",
     "phone": "07817707982",
     "intro": "I’m Justen, a Javascript and Elixir developer based in Barcelona (happy to work remotely). I love all things code, education, design, travelling and languages. I am a mentor at the <a href='http://www.foundersandcoders.com' target='_blank'>Founders & Coders</a> collective and a member of the <a href='http://www.dwyl.com' target='_blank'>DWYL</a> freelancer community."
@@ -27,6 +27,11 @@
     }
   ],
   "projects": [
+    {
+      "name": "<a class='underline' href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
+      "details": "A platform to compare regulation around the world in an easily digestible way",
+      "stack": "React, Redux, TypeScript, Express"
+    },
     {
       "name": "<a class='underline' href='https://www.spill.chat' target='_blank'>Spill</a>",
       "details": "A platform giving employees direct access to message-based therapy",
@@ -70,8 +75,13 @@
   ],
   "work": [
     {
+      "company": "<a href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
+      "from_to": "Aug 2019 - present",
+      "details": "Full stack developer"
+    },
+    {
       "company": "<a href='https://www.spill.chat' target='_blank'>Spill</a>",
-      "from_to": "May 2019 - present",
+      "from_to": "May 2019 - Aug 2019",
       "details": "Full stack developer"
     },
     {
