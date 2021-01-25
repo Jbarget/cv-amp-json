@@ -22,30 +22,18 @@ else {
       margin: {
         bottom: "20px"
       },
-      displayHeaderFooter: false,
-      printBackground: true,
+
       path: `${context.basic.first_name}_${context.basic.last_name}.pdf`
     };
     const browser = await puppeteer.launch({
-      args: ["--no-sandbox"],
-      headless: true
+      headless: true,
     });
     const page = await browser.newPage();
-    await page.goto(`data:text/html,${html}`, {
+    await page.setContent(html, {
       waitUntil: "networkidle0"
     });
-    await page.setViewport({
-      width: 1268,
-      height: 800
-    });
+
     await page.pdf(options);
-    await page.evaluate(() => {
-      return {
-        width: document.documentElement.clientWidth,
-        height: document.documentElement.clientHeight,
-        deviceScaleFactor: window.devicePixelRatio
-      };
-    });
 
     await browser.close();
   })();
