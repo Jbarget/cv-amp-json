@@ -6,7 +6,7 @@
     "image": "https://user-images.githubusercontent.com/11725595/97716092-7c393180-1ac3-11eb-80bc-a04289d5c557.jpeg",
     "email": "dear.justen@gmail.com",
     "phone": "07817707982",
-    "intro": "I’m Justen, a Javascript and Elixir developer based in Barcelona (happy to work remotely). I love all things code, education, design, travelling and languages. I am a mentor at the <a href='http://www.foundersandcoders.com' target='_blank'>Founders & Coders</a> collective and a member of the <a href='http://www.dwyl.com' target='_blank'>DWYL</a> freelancer community."
+    "intro": "I’m Justen, a Javascript and Elixir developer based in London (happy to work remotely). I love all things code, education, design, travelling and languages. I am a mentor at the <a href='http://www.foundersandcoders.com' target='_blank'>Founders & Coders</a> collective and a member of the <a href='http://www.dwyl.com' target='_blank'>DWYL</a> freelancer community."
   },
   "skills": [
     "node",
@@ -26,73 +26,31 @@
       "details": "Chemistry, 1st Class Honours"
     }
   ],
-  "projects": [
-    {
-      "name": "<a class='underline' href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
-      "details": "A platform to compare regulation around the world in an easily digestible way",
-      "stack": "React, Redux, TypeScript, Express"
-    },
-    {
-      "name": "<a class='underline' href='https://www.spill.chat' target='_blank'>Spill</a>",
-      "details": "A platform giving employees direct access to message-based therapy",
-      "stack": "React/React Native, Redux"
-    },
-    {
-      "name": "<a class='underline' href='https://www.fatllama.com' target='_blank'>Fat Llama</a>",
-      "details": "A peer to peer rental platform",
-      "stack": "React/React Native, Redux, Hapi, Postgres"
-    },
-    {
-      "name": "<a class='underline' href='https://github.com/RegSimple/FrontEndRegSimple' target='_blank'>RegSimple.io</a>",
-      "details": "A platform to allow users to easily digest and compare legislation between countries",
-      "stack": "Elm,  Express, Postgres"
-    },
-    {
-      "name": "<a class='underline' href='https://github.com/dwyl/tudo' target='_blank'>DWYL - Help Wanted</a>",
-      "details": "Dashboard to allow users to contribute easily to open source projects",
-      "stack": "Elixir, Phoenix, Taychons, Postgres"
-    },
-    {
-      "name": "<a class='underline' href='https://www.authored.io' target='_blank'>Authored.io</a>",
-      "details": "A platform to allow journalists to create, curate and deliver content easily",
-      "stack": "Node (Express), React, Redux, AWS"
-    },
-    {
-      "name": "Financial Times - Tag Metrics API",
-      "details": "A high throughput API to provide consumers with articles' tagging metrics (page views for a tag, trending tags, etc...)",
-      "stack": "AWS Lambda, Elasticsearch, AWS API Gateway"
-    },
-    {
-      "name": "<a class='underline' href='https://github.com/jbarget/cv-amp' target='_blank'>CvAmp</a>",
-      "details": "A JSON cv builder that produces mobile-first valid AMP HTML, used to build this CV",
-      "stack": "Elixir, Taychons (Rebuilt in Node & Handlebars)"
-    },
-    {
-      "name": "<a class='underline' href='http://dni.authored.io' target='_blank'>Authored DNI</a>",
-      "details": "Google funded research project, in conjunction with The Financial Times, into delivering feedback via notifications to improve workflow",
-      "stack": "Node (Express), AWS Lambda, React, AWS API Gateway"
-    }
-  ],
   "work": [
     {
       "company": "<a href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
-      "from_to": "Aug 2019 - present",
-      "details": "Full stack developer"
+      "from_to": "Jan 2020 - Jan 2021",
+      "details": "Full stack developer enhancing the original work with RegSimple"
+    },
+    {
+      "company": "<a href='https://www.freybors.com' target='_blank'>Freybors</a>",
+      "from_to": "Aug 2019 - Jan - 2020",
+      "details": "Full stack developer working on a food delivery platform"
     },
     {
       "company": "<a href='https://www.spill.chat' target='_blank'>Spill</a>",
       "from_to": "May 2019 - Aug 2019",
-      "details": "Full stack developer"
+      "details": "Full stack developer working on React Native application"
     },
     {
       "company": "<a href='https://www.fatllama.com' target='_blank'>Fat Llama</a>",
       "from_to": "Nov 2018 - March 2019",
-      "details": "Full stack developer"
+      "details": "Full stack developer developing functionality on their web platform"
     },
     {
       "company": "<a href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
       "from_to": "May 2018 - Oct 2018",
-      "details": "Full stack developer"
+      "details": "Full stack developer helping the client refine the "
     },
     {
       "company": "<a href='https://www.emoticast.com' target='_blank'>Emoticast</a>",
@@ -108,11 +66,6 @@
       "company": "<a href='https://www.dwyl.com' target='_blank'>DWYL</a>",
       "from_to": "Nov 2016 - present",
       "details": "Full stack developer working on multiple projects"
-    },
-    {
-      "company": "<a href='https://www.facebook.com/MrNoScrubs/' target='_blank'>No Scrubs</a>",
-      "from_to": "Nov 2011 - June 2015",
-      "details": "Founded an events company that ran in 4 cities around the UK"
     }
   ],
   "extra_curricular": [
@@ -129,6 +82,48 @@
     {
       "name": "<a href='https://github.com/nelsonic' target='_blank'>Nelson Correia</a>",
       "comment": "Words that comes to mind when I think of Justen: Genuine, natural, talented, can-do, focussed, fast-learner, teacher, humble, patience, quiet, humorous, reliable, punctual, well-spoken, empathetic, caring, team-player, leader. </br> He does not fit any text-book 'personality type'. He is well-rounded, grounded and determined and turns his hand to anything in his pursuit of understanding and overcoming a challenge. He is joy to work with and an asset to any team; I would be delighted to work/learn with him again!"
+    }
+  ],
+  "projects": [
+    {
+      "name": "<a class='underline' href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
+      "details": "A platform to compare regulation around the world in an easily digestible way",
+      "stack": "React, Redux, TypeScript, Express"
+    },
+    {
+      "name": "Financial Times - Tag Metrics API",
+      "details": "A high throughput API to provide consumers with articles' tagging metrics (page views for a tag, trending tags, etc...)",
+      "stack": "AWS Lambda, Elasticsearch, AWS API Gateway"
+    },
+    {
+      "name": "<a class='underline' href='https://www.spill.chat' target='_blank'>Spill</a>",
+      "details": "A platform giving employees direct access to message-based therapy",
+      "stack": "React/React Native, Redux"
+    },
+    {
+      "name": "<a class='underline' href='https://www.fatllama.com' target='_blank'>Fat Llama</a>",
+      "details": "A peer to peer rental platform",
+      "stack": "React/React Native, Redux, Hapi, Postgres"
+    },
+    {
+      "name": "<a class='underline' href='http://dni.authored.io' target='_blank'>Authored DNI</a>",
+      "details": "Google funded research project, in conjunction with The Financial Times, into delivering feedback via notifications to improve workflow",
+      "stack": "Node (Express), AWS Lambda, React, AWS API Gateway"
+    },
+    {
+      "name": "<a class='underline' href='https://github.com/dwyl/tudo' target='_blank'>DWYL - Help Wanted</a>",
+      "details": "Dashboard to allow users to contribute easily to open source projects",
+      "stack": "Elixir, Phoenix, Taychons, Postgres"
+    },
+    {
+      "name": "<a class='underline' href='https://www.authored.io' target='_blank'>Authored.io</a>",
+      "details": "A platform to allow journalists to create, curate and deliver content easily",
+      "stack": "Node (Express), React, Redux, AWS"
+    },
+    {
+      "name": "<a class='underline' href='https://github.com/jbarget/cv-amp' target='_blank'>CvAmp</a>",
+      "details": "A JSON cv builder that produces mobile-first valid AMP HTML, used to build this CV",
+      "stack": "Elixir, Taychons (Rebuilt in Node & Handlebars)"
     }
   ]
 }

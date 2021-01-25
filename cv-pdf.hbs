@@ -1,101 +1,181 @@
 <!DOCTYPE html>
 <html amp>
-  <head>
-    <link rel="canonical" href="self.html" />
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <style>.min-vh-15{min-height: 15vh;}.min-vh-6{min-height: 6vh;}</style>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <title>{{{title}}}</title>
-  </head>
-  <body class="helvetica fw3">
-    <header class="tc bg-light-green pa2">
-      <div class="inline-flex items-center">
-        <div class="flex">
-          <div class="w-40 flex justify-center">
-            <amp-img class="br-100" width="100" height="100" src="{{{basic.image}}}" alt="{{basic.first_name}} {{basic.last_name}} profile image">
+
+<head>
+  <link rel="canonical" href="self.html" />
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
+
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+  </style><noscript>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none
+      }
+    </style>
+  </noscript>
+  <style>
+    .min-vh-15 {
+      min-height: 15vh;
+    }
+
+    .min-vh-6 {
+      min-height: 6vh;
+    }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <title>{{{title}}}</title>
+</head>
+
+<body class="helvetica fw3">
+  <header class="tc bg-light-green pa2">
+    <div class="inline-flex items-center">
+      <div class="flex">
+        <div class="w-40 flex justify-center">
+          <amp-img class="br-100" width="100" height="100" src="{{{basic.image}}}"
+            alt="{{basic.first_name}} {{basic.last_name}} profile image">
             <noscript>
-              <img class="br-100" src="{{{basic.image}}}" width="100" height="100" alt="{{basic.first_name}} {{basic.last_name}} profile image"/>
+              <img class="br-100" src="{{{basic.image}}}" width="100" height="100"
+                alt="{{basic.first_name}} {{basic.last_name}} profile image" />
             </noscript>
-            </amp-img>
-            <div>
-              <h1 class="ml3 f3 fw3">{{basic.first_name}} {{basic.last_name}} </h1>
-              <p class="ml3 f6 fw3 mt0 mb1">{{basic.email}}</p>
-              <p class="ml3 f6 fw3 mt0">{{basic.phone}}</p>
-            </div>
+          </amp-img>
+          <div>
+            <h1 class="ml3 f3 fw3">{{basic.first_name}} {{basic.last_name}} </h1>
+            <p class="ml3 f6 fw3 mt0 mb1">{{basic.email}}</p>
+            <p class="ml3 f6 fw3 mt0">{{basic.phone}}</p>
           </div>
-          <p class="w-60 f5">{{{basic.intro}}}</p>
         </div>
+        <p class="w-60 f5">{{{basic.intro}}}</p>
       </div>
-    </header>
-    <main>
-      <section>
-        <ul class="list flex flex-wrap pl0 justify-center mv2">
-          {{#each skills}}
-          <li class="ba br-pill b--black-10 di pa2 mh1">{{this}}</li>
-          {{/each}}
-        </ul>
-      </section>
-      <div class="ba b--light-gray ma2"></div>
-      <section class="pa2 fw3">
-        <h2 class='ttu fw4 tc mv2'>Work</h2>
-        <div class='flex flex-wrap justify-center'>
-          {{#each work}}
-            <div class="w-50 pl2 pr2 tc">
-              <div>
-                <p class="di-l underline">{{{this.company}}}</p>
-                <p class=" di-l black-40 no-underline">{{this.from_to}}</p>
-              </div>
-              <p>{{this.details}}</p>
-            </div>
-          {{/each}}
-        </div>
-      </section>
-      <section>
-        <h2 class='ttu fw4 tc mb4'>Projects</h2>
-        <div class='flex flex-wrap justify-center'>
-          {{#each projects}}
-            <div class="w-50 min-vh-15 tc">
-              <div>
-                <p class="di-l">{{{this.name}}}</p>
-                <p class=" di-l black-40 no-underline">{{this.stack}}</p>
-              </div>
-              <p class="ph2">{{this.details}}</p>
-            </div>
-          {{/each}}
-        </div>
-      </section>
-      <section>
-        <h2 class='ttu fw4 tc'>Extra Things</h2>
-        <ul class='flex justify-center flex-wrap'>
-          {{#each extra_curricular}}
-            <li class="w-50 min-vh-6 pr4">{{this}}</li>
-          {{/each}}
-        </ul>
-      </section>
-      <section>
-        <h2 class='ttu fw4 tc'>Education</h2>
-          {{#each education}}
-            <div class="tc">
-              <p>{{this.name}}</p>
-              <p>{{this.details}}</p>
-            </div>
-          {{/each}}
-      </section>
-      <section>
-        <h2 class='ttu fw4 tc'>References</h2>
-        {{#each references}}
-          <div class="tc">
-            <p>{{{this.name}}}</p>
-            <p>{{{this.comment}}}</p>
-          </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <ul class="list flex flex-wrap pl0 justify-center mv2">
+        {{#each skills}}
+        <li class="ba br-pill b--black-10 di pa2 mh1">{{this}}</li>
         {{/each}}
-      </section>
-    </main>
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-  </body>
+      </ul>
+    </section>
+    <div class="ba b--light-gray ma2"></div>
+    <section>
+      <h2 class='ttu fw4 tc mb2'>Projects</h2>
+      <div class='flex flex-wrap justify-center'>
+        {{#each projects}}
+        <div class="w-50 min-vh-15 tc mv1">
+          <div>
+            <p class="di-l">{{{this.name}}}</p>
+            <p class=" di-l black-40 no-underline">{{this.stack}}</p>
+          </div>
+          <p class="pv1">{{this.details}}</p>
+        </div>
+        {{/each}}
+      </div>
+    </section>
+    <section class="pa2 fw3">
+      <h2 class='ttu fw4 tc mv2'>Work</h2>
+      <div class='flex flex-wrap justify-center'>
+        {{#each work}}
+        <div class="w-50 pl2 pr2 tc pv1">
+          <div>
+            <p class="di-l underline">{{{this.company}}}</p>
+            <p class=" di-l black-40 no-underline">{{this.from_to}}</p>
+          </div>
+          <p class="f6">{{this.details}}</p>
+        </div>
+        {{/each}}
+      </div>
+    </section>
+
+    <section>
+      <h2 class='ttu fw4 tc'>Extra Things</h2>
+      <ul class='flex justify-center flex-wrap'>
+        {{#each extra_curricular}}
+        <li class="w-50 min-vh-6 pr4">{{this}}</li>
+        {{/each}}
+      </ul>
+    </section>
+    <section>
+      <h2 class='ttu fw4 tc'>Education</h2>
+      {{#each education}}
+      <div class="tc">
+        <p>{{this.name}}</p>
+        <p>{{this.details}}</p>
+      </div>
+      {{/each}}
+    </section>
+    <section>
+      <h2 class='ttu fw4 tc'>References</h2>
+      {{#each references}}
+      <div class="tc">
+        <p>{{{this.name}}}</p>
+        <p>{{{this.comment}}}</p>
+      </div>
+      {{/each}}
+    </section>
+  </main>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+</body>
+
 </html>

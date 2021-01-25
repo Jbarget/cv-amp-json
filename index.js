@@ -1,7 +1,6 @@
 // !/usr/bin/env node
 
 const fs = require("fs");
-const path = require("path");
 const handlebars = require("handlebars");
 const puppeteer = require("puppeteer");
 
@@ -40,7 +39,7 @@ else {
       height: 800
     });
     await page.pdf(options);
-    const dimensions = await page.evaluate(() => {
+    await page.evaluate(() => {
       return {
         width: document.documentElement.clientWidth,
         height: document.documentElement.clientHeight,
