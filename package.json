@@ -4,7 +4,8 @@
   "description": "CV generator Using Google AMP",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "html": "node index.js",
+    "pdf": "node index.js --pdf"
   },
   "engines": {
     "node": ">=7.6"
