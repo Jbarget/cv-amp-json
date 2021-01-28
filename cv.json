@@ -26,48 +26,6 @@
       "details": "Chemistry, 1st Class Honours"
     }
   ],
-  "work": [
-    {
-      "company": "<a href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
-      "from_to": "Jan 2020 - Jan 2021",
-      "details": "Full stack developer enhancing the original work with RegSimple"
-    },
-    {
-      "company": "<a href='https://www.freybors.com' target='_blank'>Freybors</a>",
-      "from_to": "Aug 2019 - Jan - 2020",
-      "details": "Full stack developer working on a food delivery platform"
-    },
-    {
-      "company": "<a href='https://www.spill.chat' target='_blank'>Spill</a>",
-      "from_to": "May 2019 - Aug 2019",
-      "details": "Full stack developer working on React Native application"
-    },
-    {
-      "company": "<a href='https://www.fatllama.com' target='_blank'>Fat Llama</a>",
-      "from_to": "Nov 2018 - March 2019",
-      "details": "Full stack developer developing functionality on their web platform"
-    },
-    {
-      "company": "<a href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
-      "from_to": "May 2018 - Oct 2018",
-      "details": "Full stack developer helping the client refine the "
-    },
-    {
-      "company": "<a href='https://www.emoticast.com' target='_blank'>Emoticast</a>",
-      "from_to": "Jan 2018 - May 2018",
-      "details": "Full stack developer working mainly on frontend"
-    },
-    {
-      "company": "<a href='https://www.authored.io' target='_blank'>Authored</a>",
-      "from_to": "June 2016 - Jan 2018",
-      "details": "Full stack developer working across 2 projects"
-    },
-    {
-      "company": "<a href='https://www.dwyl.com' target='_blank'>DWYL</a>",
-      "from_to": "Nov 2016 - present",
-      "details": "Full stack developer working on multiple projects"
-    }
-  ],
   "extra_curricular": [
     "Mentoring: Helped set up and mentor Founders & Coders Nazareth",
     "Coding for Everyone Meetup: Set up a weekly meetup focussed on helping people learn how to code",
@@ -84,41 +42,54 @@
       "comment": "Words that comes to mind when I think of Justen: Genuine, natural, talented, can-do, focussed, fast-learner, teacher, humble, patience, quiet, humorous, reliable, punctual, well-spoken, empathetic, caring, team-player, leader. </br> He does not fit any text-book 'personality type'. He is well-rounded, grounded and determined and turns his hand to anything in his pursuit of understanding and overcoming a challenge. He is joy to work with and an asset to any team; I would be delighted to work/learn with him again!"
     }
   ],
-  "projects": [
+  "work": [
     {
       "name": "<a class='underline' href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
       "details": "A platform to compare regulation around the world in an easily digestible way",
+      "from_to": "May '18 - Oct '18 / Jan '20 - Jan '21",
       "stack": "React, Redux, TypeScript, Express"
     },
     {
-      "name": "Financial Times - Tag Metrics API",
-      "details": "A high throughput API to provide consumers with articles' tagging metrics (page views for a tag, trending tags, etc...)",
-      "stack": "AWS Lambda, Elasticsearch, AWS API Gateway"
+      "name": "<a href='https://www.freybors.com' target='_blank'>Freybors</a>",
+      "from_to": "Aug '19 - Jan - '20",
+      "details": "Full stack developer working on a food delivery platform",
+      "stack": "React, Redux, TypeScript, Express"
     },
     {
       "name": "<a class='underline' href='https://www.spill.chat' target='_blank'>Spill</a>",
       "details": "A platform giving employees direct access to message-based therapy",
+      "from_to": "May '19 - Aug '19",
       "stack": "React/React Native, Redux"
     },
     {
       "name": "<a class='underline' href='https://www.fatllama.com' target='_blank'>Fat Llama</a>",
+      "from_to": "Nov '18 - March '19",
       "details": "A peer to peer rental platform",
       "stack": "React/React Native, Redux, Hapi, Postgres"
     },
     {
-      "name": "<a class='underline' href='http://dni.authored.io' target='_blank'>Authored DNI</a>",
-      "details": "Google funded research project, in conjunction with The Financial Times, into delivering feedback via notifications to improve workflow",
-      "stack": "Node (Express), AWS Lambda, React, AWS API Gateway"
+      "name": "Financial Times - Tag Metrics API",
+      "details": "A high throughput API to provide consumers with articles' tagging metrics (page views for a tag, trending tags, etc...)",
+      "from_to": "Nov '17 - Jan '18",
+      "stack": "AWS Lambda, Elasticsearch, AWS API Gateway"
     },
     {
-      "name": "<a class='underline' href='https://github.com/dwyl/tudo' target='_blank'>DWYL - Help Wanted</a>",
-      "details": "Dashboard to allow users to contribute easily to open source projects",
-      "stack": "Elixir, Phoenix, Taychons, Postgres"
+      "name": "<a class='underline' href='http://dni.authored.io' target='_blank'>Authored DNI</a>",
+      "details": "Google funded research project, in conjunction with The Financial Times, into delivering feedback via notifications to improve workflow",
+      "from_to": "June '17 - Jan '18",
+      "stack": "Node (Express), AWS Lambda, React, AWS API Gateway"
     },
     {
       "name": "<a class='underline' href='https://www.authored.io' target='_blank'>Authored.io</a>",
       "details": "A platform to allow journalists to create, curate and deliver content easily",
+      "from_to": "June '16 - June '17",
       "stack": "Node (Express), React, Redux, AWS"
+    },
+    {
+      "name": "<a class='underline' href='https://github.com/dwyl/tudo' target='_blank'>DWYL - Help Wanted</a>",
+      "details": "Dashboard to allow users to contribute easily to open source projects",
+      "from_to": "June '16 - Mar '19",
+      "stack": "Elixir, Phoenix, Taychons, Postgres"
     },
     {
       "name": "<a class='underline' href='https://github.com/jbarget/cv-amp' target='_blank'>CvAmp</a>",

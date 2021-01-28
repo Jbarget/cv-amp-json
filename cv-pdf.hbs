@@ -123,36 +123,21 @@
       </ul>
     </section>
     <div class="ba b--light-gray ma2"></div>
-    <section>
-      <h2 class='ttu fw4 tc mb2'>Projects</h2>
+    <section class="ph3">
+      <h2 class='ttu fw4 tc mb2'>Work</h2>
       <div class='flex flex-wrap justify-center'>
-        {{#each projects}}
+        {{#each work}}
         <div class="w-50 min-vh-15 tc mv1">
           <div>
-            <p class="di-l">{{{this.name}}}</p>
-            <p class=" di-l black-40 no-underline">{{this.stack}}</p>
+            <p class="f4">{{{this.name}}} <span class="black-40 no-underline f6">{{this.from_to}}</span></p>
+            <p class="black-40 no-underline">{{this.stack}}</p>
           </div>
           <p class="pv1">{{this.details}}</p>
         </div>
         {{/each}}
       </div>
     </section>
-    <section class="pa2 fw3">
-      <h2 class='ttu fw4 tc mv2'>Work</h2>
-      <div class='flex flex-wrap justify-center'>
-        {{#each work}}
-        <div class="w-50 pl2 pr2 tc pv1">
-          <div>
-            <p class="di-l underline">{{{this.company}}}</p>
-            <p class=" di-l black-40 no-underline">{{this.from_to}}</p>
-          </div>
-          <p class="f6">{{this.details}}</p>
-        </div>
-        {{/each}}
-      </div>
-    </section>
-
-    <section>
+    <section class="ph3">
       <h2 class='ttu fw4 tc'>Extra Things</h2>
       <ul class='flex justify-center flex-wrap'>
         {{#each extra_curricular}}
@@ -160,7 +145,7 @@
         {{/each}}
       </ul>
     </section>
-    <section>
+    <section class="ph3">
       <h2 class='ttu fw4 tc'>Education</h2>
       {{#each education}}
       <div class="tc">
@@ -169,7 +154,7 @@
       </div>
       {{/each}}
     </section>
-    <section>
+    <section class="ph3">
       <h2 class='ttu fw4 tc'>References</h2>
       {{#each references}}
       <div class="tc">

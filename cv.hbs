@@ -115,28 +115,14 @@
       </ul>
     </section>
     <div class="ba b--light-gray ma2"></div>
-    <section class="pa2 fw3">
-      <h2 class='ttu fw4 tc'>Work</h2>
+    <section>
+      <h2 class='ttu fw4 tc mb4'>Work</h2>
       <div class='flex flex-wrap justify-center'>
         {{#each work}}
-        <div class="w-50-ns w-100 pl2 pr2 tc">
-          <div>
-            <p class="di-l underline">{{{this.company}}}</p>
-            <p class=" di-l black-40 no-underline">{{this.from_to}}</p>
-          </div>
-          <p>{{this.details}}</p>
-        </div>
-        {{/each}}
-      </div>
-    </section>
-    <section>
-      <h2 class='ttu fw4 tc mb4'>Projects</h2>
-      <div class='flex flex-wrap justify-center'>
-        {{#each projects}}
         <div class="w-50-ns w-100 min-vh-15 tc">
           <div>
-            <p class="di-l">{{{this.name}}}</p>
-            <p class=" di-l black-40 no-underline">{{this.stack}}</p>
+            <p class="f4">{{{this.name}}} <span class="black-40 no-underline f6">{{this.from_to}}</span></p>
+            <p class="black-40 no-underline">{{this.stack}}</p>
           </div>
           <p class="pl2 pr2">{{this.details}}</p>
         </div>
