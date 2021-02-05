@@ -9,7 +9,7 @@
     "intro": "I’m Justen, a Javascript and Elixir developer based in London (happy to work remotely). I love all things code, education, design, travelling and languages. I am a mentor at the <a href='http://www.foundersandcoders.com' target='_blank'>Founders & Coders</a> collective and a member of the <a href='http://www.dwyl.com' target='_blank'>DWYL</a> freelancer community."
   },
   "skills": [
-    "node",
+    "nodeJS",
     "elixir",
     "typescript",
     "react",
@@ -47,13 +47,13 @@
       "name": "<a class='underline' href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
       "details": "A platform to compare regulation around the world in an easily digestible way",
       "from_to": "May '18 - Oct '18 / Jan '20 - Jan '21",
-      "stack": "React, Redux, TypeScript, Express"
+      "stack": "React, Redux, TypeScript, NodeJS"
     },
     {
       "name": "<a href='https://www.freybors.com' target='_blank'>Freybors</a>",
       "from_to": "Aug '19 - Jan - '20",
       "details": "Full stack developer working on a food delivery platform",
-      "stack": "React, Redux, TypeScript, Express"
+      "stack": "React, Redux, TypeScript, NodeJS"
     },
     {
       "name": "<a class='underline' href='https://www.spill.chat' target='_blank'>Spill</a>",
@@ -77,13 +77,13 @@
       "name": "<a class='underline' href='http://dni.authored.io' target='_blank'>Authored DNI</a>",
       "details": "Google funded research project, in conjunction with The Financial Times, into delivering feedback via notifications to improve workflow",
       "from_to": "June '17 - Jan '18",
-      "stack": "Node (Express), AWS Lambda, React, AWS API Gateway"
+      "stack": "NodeJS, AWS Lambda, React, AWS API Gateway"
     },
     {
       "name": "<a class='underline' href='https://www.authored.io' target='_blank'>Authored.io</a>",
       "details": "A platform to allow journalists to create, curate and deliver content easily",
       "from_to": "June '16 - June '17",
-      "stack": "Node (Express), React, Redux, AWS"
+      "stack": "NodeJS, React, Redux, AWS"
     },
     {
       "name": "<a class='underline' href='https://github.com/dwyl/tudo' target='_blank'>DWYL - Help Wanted</a>",
@@ -94,7 +94,7 @@
     {
       "name": "<a class='underline' href='https://github.com/jbarget/cv-amp' target='_blank'>CvAmp</a>",
       "details": "A JSON cv builder that produces mobile-first valid AMP HTML, used to build this CV",
-      "stack": "Elixir, Taychons (Rebuilt in Node & Handlebars)"
+      "stack": "Elixir, Taychons (Rebuilt in NodeJS & Handlebars)"
     }
   ]
 }
