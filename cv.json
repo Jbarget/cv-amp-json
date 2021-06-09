@@ -11,8 +11,9 @@
   "skills": [
     "nodeJS",
     "elixir",
-    "typescript",
     "react",
+    "react-native",
+    "typescript",
     "redux",
     "hapi",
     "express",
@@ -43,6 +44,12 @@
     }
   ],
   "work": [
+    {
+      "name": "<a class='underline' href='https://www.tahora.com' target='_blank'>Tahora</a>",
+      "details": "Tahora is the culture and wellbeing platform creating inclusive hybrid workplaces with better connected and happier employees.",
+      "from_to": "Feb '21 - present",
+      "stack": "React Native, GraphQL, TypeScript, NodeJS, Postgres"
+    },
     {
       "name": "<a class='underline' href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
       "details": "A platform to compare regulation around the world in an easily digestible way",
