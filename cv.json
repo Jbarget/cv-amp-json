@@ -15,7 +15,6 @@
     "react-native",
     "typescript",
     "redux",
-    "hapi",
     "express",
     "AWS",
     "mongoDB",
