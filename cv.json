@@ -12,7 +12,7 @@
     "nodeJS",
     "elixir",
     "react",
-    "react-native",
+    "react native",
     "typescript",
     "redux",
     "express",
@@ -44,9 +44,21 @@
   ],
   "work": [
     {
+      "name": "<a class='underline' href='https://foundertribe.org/' target='_blank'>The Tribe</a>",
+      "details": "The Tribe is a web & mobile platform helping entrepreneurship programmes empower the next generation of founders.",
+      "from_to": "Jan '22 - present",
+      "stack": "React Native, Deno (NodeJS), TypeScript"
+    },
+    {
+      "name": "<a class='underline' href='https://www.helloself.com/' target='_blank'>HelloSelf</a>",
+      "details": "A platform providing therapy & coaching to make your Self better",
+      "from_to": "Sep '21 - Dec '21",
+      "stack": "React Native, Redux, TypeScript"
+    },
+    {
       "name": "<a class='underline' href='https://www.tahora.com' target='_blank'>Tahora</a>",
       "details": "Tahora is the culture and wellbeing platform creating inclusive hybrid workplaces with better connected and happier employees.",
-      "from_to": "Feb '21 - present",
+      "from_to": "Feb '21 - Sep '21",
       "stack": "React Native, GraphQL, TypeScript, NodeJS, Postgres"
     },
     {
