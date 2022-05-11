@@ -6,11 +6,10 @@
     "image": "https://user-images.githubusercontent.com/11725595/105749310-842e3380-5f43-11eb-98a7-b3009431c8f0.jpeg",
     "email": "dear.justen@gmail.com",
     "phone": "07817707982",
-    "intro": "I’m Justen, a Javascript and Elixir developer based in London (happy to work remotely). I love all things code, education, design, travelling and languages. I am a mentor at the <a href='http://www.foundersandcoders.com' target='_blank'>Founders & Coders</a> collective and a member of the <a href='http://www.dwyl.com' target='_blank'>DWYL</a> freelancer community."
+    "intro": "I’m Justen, a JavaScript web & mobile developer. I love all things code, education, design, travelling and languages. I am a mentor at the <a href='http://www.foundersandcoders.com' target='_blank'>Founders & Coders</a> collective and a member of the <a href='http://www.dwyl.com' target='_blank'>DWYL</a> freelancer community."
   },
   "skills": [
     "nodeJS",
-    "elixir",
     "react",
     "react native",
     "typescript",
@@ -29,7 +28,7 @@
   "extra_curricular": [
     "Mentoring: Helped set up and mentor Founders & Coders Nazareth",
     "Coding for Everyone Meetup: Set up a weekly meetup focussed on helping people learn how to code",
-    "Languages: English, Spanish, (Portuguese, Arabic, Italian all next on the list)",
+    "Cycling: I'm a big fan of cycling around (3 week trip through Kyrgystan coming up!)",
     "Cooking: I enjoy cooking a lot"
   ],
   "references": [
