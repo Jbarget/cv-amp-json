@@ -13,6 +13,7 @@
     "react",
     "react native",
     "typescript",
+    "graphql",
     "redux",
     "express",
     "AWS",
@@ -43,14 +44,20 @@
   ],
   "work": [
     {
+      "name": "OnCore App",
+      "details": "A social journaling platform to reflect and share on a daily journal prompt. Providing opportunities for users to muse over ideas, art, and inspiration, OnCore intends to be a healthier alternative to other forms of written social media.",
+      "from_to": "June '22 - present",
+      "stack": "React Native, NodeJS, GraphQL, TypeScript"
+    },
+    {
       "name": "<a class='underline' href='https://foundertribe.org/' target='_blank'>The Tribe</a>",
       "details": "The Tribe is a web & mobile platform helping entrepreneurship programmes empower the next generation of founders.",
-      "from_to": "Jan '22 - present",
+      "from_to": "Jan '22 - June '22",
       "stack": "React Native, Deno (NodeJS), TypeScript"
     },
     {
       "name": "<a class='underline' href='https://www.helloself.com/' target='_blank'>HelloSelf</a>",
-      "details": "A platform providing therapy & coaching to make your Self better",
+      "details": "A platform providing therapy & coaching to make your Self better.",
       "from_to": "Sep '21 - Dec '21",
       "stack": "React Native, Redux, TypeScript"
     },
@@ -62,55 +69,49 @@
     },
     {
       "name": "<a class='underline' href='https://www.regsimple.io' target='_blank'>RegSimple</a>",
-      "details": "A platform to compare regulation around the world in an easily digestible way",
+      "details": "A platform to compare regulation around the world in an easily digestible way.",
       "from_to": "May '18 - Oct '18 / Jan '20 - Jan '21",
       "stack": "React, Redux, TypeScript, NodeJS"
     },
     {
       "name": "<a href='https://www.freybors.com' target='_blank'>Freybors</a>",
       "from_to": "Aug '19 - Jan - '20",
-      "details": "Full stack developer working on a food delivery platform",
+      "details": "Full stack developer working on a food delivery platform.",
       "stack": "React, Redux, TypeScript, NodeJS"
     },
     {
       "name": "<a class='underline' href='https://www.spill.chat' target='_blank'>Spill</a>",
-      "details": "A platform giving employees direct access to message-based therapy",
+      "details": "A platform giving employees direct access to message-based therapy.",
       "from_to": "May '19 - Aug '19",
       "stack": "React/React Native, Redux"
     },
     {
       "name": "<a class='underline' href='https://www.fatllama.com' target='_blank'>Fat Llama</a>",
       "from_to": "Nov '18 - March '19",
-      "details": "A peer to peer rental platform",
+      "details": "A peer to peer rental platform.",
       "stack": "React/React Native, Redux, Hapi, Postgres"
     },
     {
       "name": "Financial Times - Tag Metrics API",
-      "details": "A high throughput API to provide consumers with articles' tagging metrics (page views for a tag, trending tags, etc...)",
+      "details": "A high throughput API to provide consumers with articles' tagging metrics (page views for a tag, trending tags, etc...).",
       "from_to": "Nov '17 - Jan '18",
       "stack": "AWS Lambda, Elasticsearch, AWS API Gateway"
     },
     {
       "name": "<a class='underline' href='http://dni.authored.io' target='_blank'>Authored DNI</a>",
-      "details": "Google funded research project, in conjunction with The Financial Times, into delivering feedback via notifications to improve workflow",
+      "details": "Google funded research project, in conjunction with The Financial Times, into delivering feedback via notifications to improve workflow.",
       "from_to": "June '17 - Jan '18",
       "stack": "NodeJS, AWS Lambda, React, AWS API Gateway"
     },
     {
       "name": "<a class='underline' href='https://www.authored.io' target='_blank'>Authored.io</a>",
-      "details": "A platform to allow journalists to create, curate and deliver content easily",
+      "details": "A platform to allow journalists to create, curate and deliver content easily.",
       "from_to": "June '16 - June '17",
       "stack": "NodeJS, React, Redux, AWS"
     },
     {
-      "name": "<a class='underline' href='https://github.com/dwyl/tudo' target='_blank'>DWYL - Help Wanted</a>",
-      "details": "Dashboard to allow users to contribute easily to open source projects",
-      "from_to": "June '16 - Mar '19",
-      "stack": "Elixir, Phoenix, Taychons, Postgres"
-    },
-    {
       "name": "<a class='underline' href='https://github.com/jbarget/cv-amp' target='_blank'>CvAmp</a>",
-      "details": "A JSON cv builder that produces mobile-first valid AMP HTML, used to build this CV",
+      "details": "A JSON cv builder that produces mobile-first valid AMP HTML, used to build this CV.",
       "stack": "Elixir, Taychons (Rebuilt in NodeJS & Handlebars)"
     }
   ]
