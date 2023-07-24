@@ -45,7 +45,7 @@
   "work": [
     {
       "name": "<a class='underline' href='https://www.thedailymuse.app/' target='_blank'>The Daily Muse</a>",
-      "details": "A social journaling platform to reflect and share on a daily journal prompt. Providing opportunities for users to muse over ideas, art, and inspiration, OnCore intends to be a healthier alternative to other forms of written social media.",
+      "details": "A social journaling platform to reflect and share on a daily journal prompt. Providing opportunities for users to muse over ideas, art, and inspiration, The Daily Muse intends to be a healthier alternative to other forms of written social media.",
       "from_to": "June '22 - July '23",
       "stack": "React Native, NodeJS, GraphQL, TypeScript"
     },
