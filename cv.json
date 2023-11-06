@@ -3,10 +3,9 @@
   "basic": {
     "first_name": "Justen",
     "last_name": "Barget",
-    "image": "https://user-images.githubusercontent.com/11725595/105749310-842e3380-5f43-11eb-98a7-b3009431c8f0.jpeg",
     "email": "dear.justen@gmail.com",
     "phone": "",
-    "intro": "I’m Justen, a JavaScript web & mobile developer. I love all things code, education, design, travelling and languages. I am a mentor at the <a href='http://www.foundersandcoders.com' target='_blank'>Founders & Coders</a> collective and a member of the <a href='http://www.dwyl.com' target='_blank'>DWYL</a> freelancer community."
+    "intro": "I’m Justen, a JavaScript web & mobile developer. I love all things code, education, design, travelling and communication. I am a mentor at the <a href='http://www.foundersandcoders.com' target='_blank'>Founders & Coders</a> collective and a member of the <a href='http://www.dwyl.com' target='_blank'>DWYL</a> freelancer community."
   },
   "skills": [
     "nodeJS",
@@ -29,7 +28,7 @@
   "extra_curricular": [
     "Mentoring: Helped set up and mentor Founders & Coders Nazareth",
     "Coding for Everyone Meetup: Set up a weekly meetup focussed on helping people learn how to code",
-    "Cycling: I'm a big fan of cycling around (3 week trip through Kyrgystan coming up!)",
+    "Cycling: I'm a big fan of cycling around. 3 week bikepacking trip through Kyrgystan ✅",
     "Cooking: I enjoy cooking a lot"
   ],
   "references": [
@@ -43,6 +42,12 @@
     }
   ],
   "work": [
+    {
+      "name": "<a class='underline' href='https://wexler.ai/' target='_blank'>Wexler AI</a>",
+      "details": "The AI copilot for every legal dispute. Helping lawyers with the most time consuming and manual parts of the job, including legal research, document review and drafting.",
+      "from_to": "Oct '23 - present",
+      "stack": "React, TypeScript, Tailwind"
+    },
     {
       "name": "<a class='underline' href='https://www.thedailymuse.app/' target='_blank'>The Daily Muse</a>",
       "details": "A social journaling platform to reflect and share on a daily journal prompt. Providing opportunities for users to muse over ideas, art, and inspiration, The Daily Muse intends to be a healthier alternative to other forms of written social media.",
