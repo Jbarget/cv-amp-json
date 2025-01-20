@@ -45,8 +45,20 @@
     {
       "name": "<a class='underline' href='https://wexler.ai/' target='_blank'>Wexler AI</a>",
       "details": "The AI copilot for every legal dispute. Helping lawyers with the most time consuming and manual parts of the job, including legal research, document review and drafting.",
-      "from_to": "Oct '23 - present",
+      "from_to": "Oct '23 - Nov '23 / Sep '24 - Dec '24",
+      "stack": "React, TypeScript, Tailwind, Express (NodeJS)"
+    },
+    {
+      "name": "<a class='underline' href='https://www.getborderless.co.uk/' target='_blank'>Borderless</a>",
+      "details": "Borderless makes sponsorship effortless by bringing together the best of technology and human expertise for compliance, visa processing, sponsor licence assistance, and recruitment.",
+      "from_to": "Dec '23 - June '24",
       "stack": "React, TypeScript, Tailwind"
+    },
+    {
+      "name": "<a class='underline' href='https://www.planes.studio/' target='_blank'>Planes</a>",
+      "details": "Slice - Building the UK's only eSIM network available exclusively via an app",
+      "from_to": "Dec '23 - June '24",
+      "stack": "React Native, Typescript, GraphQL"
     },
     {
       "name": "<a class='underline' href='https://www.thedailymuse.app/' target='_blank'>The Daily Muse</a>",
@@ -78,12 +90,7 @@
       "from_to": "May '18 - Oct '18 / Jan '20 - Jan '21",
       "stack": "React, Redux, TypeScript, NodeJS"
     },
-    {
-      "name": "<a href='https://www.freybors.com' target='_blank'>Freybors</a>",
-      "from_to": "Aug '19 - Jan - '20",
-      "details": "Full stack developer working on a food delivery platform.",
-      "stack": "React, Redux, TypeScript, NodeJS"
-    },
+  
     {
       "name": "<a class='underline' href='https://www.spill.chat' target='_blank'>Spill</a>",
       "details": "A platform giving employees direct access to message-based therapy.",
