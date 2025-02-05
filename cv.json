@@ -12,9 +12,9 @@
     "react",
     "react native",
     "typescript",
+    "nextJS",
     "graphql",
     "redux",
-    "express",
     "AWS",
     "mongoDB",
     "postgres"
@@ -52,25 +52,25 @@
       "name": "<a class='underline' href='https://www.getborderless.co.uk/' target='_blank'>Borderless</a>",
       "details": "Borderless makes sponsorship effortless by bringing together the best of technology and human expertise for compliance, visa processing, sponsor licence assistance, and recruitment.",
       "from_to": "Dec '23 - June '24",
-      "stack": "React, TypeScript, Tailwind"
+      "stack": "React, NextJS, TypeScript, Tailwind"
     },
     {
       "name": "<a class='underline' href='https://www.planes.studio/' target='_blank'>Planes</a>",
       "details": "Slice - Building the UK's only eSIM network available exclusively via an app",
       "from_to": "Dec '23 - June '24",
-      "stack": "React Native, Typescript, GraphQL"
+      "stack": "React Native, Expo, Typescript, GraphQL"
     },
     {
       "name": "<a class='underline' href='https://www.thedailymuse.app/' target='_blank'>The Daily Muse</a>",
       "details": "A social journaling platform to reflect and share on a daily journal prompt. Providing opportunities for users to muse over ideas, art, and inspiration, The Daily Muse intends to be a healthier alternative to other forms of written social media.",
       "from_to": "June '22 - July '23",
-      "stack": "React Native, NodeJS, GraphQL, TypeScript"
+      "stack": "React Native, Expo, NodeJS, GraphQL, TypeScript"
     },
     {
       "name": "<a class='underline' href='https://startbook.co.uk/' target='_blank'>Startbook</a>",
       "details": "Startbook is a web & mobile platform helping entrepreneurship programmes empower the next generation of founders.",
       "from_to": "Jan '22 - June '22",
-      "stack": "React Native, Deno (NodeJS), TypeScript"
+      "stack": "React Native, NextJS, TypeScript"
     },
     {
       "name": "<a class='underline' href='https://www.helloself.com/' target='_blank'>HelloSelf</a>",
