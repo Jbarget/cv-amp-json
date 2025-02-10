@@ -55,8 +55,8 @@
       "stack": "React, NextJS, TypeScript, Tailwind"
     },
     {
-      "name": "<a class='underline' href='https://www.planes.studio/' target='_blank'>Planes</a>",
-      "details": "Slice - Building the UK's only eSIM network available exclusively via an app",
+      "name": "<a class='underline' href='https://www.planes.studio/work/slice' target='_blank'>Planes</a>",
+      "details": "Slice App - Building the UK's only eSIM network available exclusively via an app",
       "from_to": "Dec '23 - June '24",
       "stack": "React Native, Expo, Typescript, GraphQL"
     },
