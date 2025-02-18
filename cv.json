@@ -5,7 +5,7 @@
     "last_name": "Barget",
     "email": "dear.justen@gmail.com",
     "phone": "",
-    "intro": "I’m Justen, a JavaScript web & mobile developer. I love all things code, education, design, travelling and communication. I am a mentor at the <a href='http://www.foundersandcoders.com' target='_blank'>Founders & Coders</a> collective and a member of the <a href='http://www.dwyl.com' target='_blank'>DWYL</a> freelancer community."
+    "intro": "I’m Justen, a JavaScript web & mobile developer. I love all things code, education, design, travelling and communication."
   },
   "skills": [
     "nodeJS",
@@ -26,20 +26,9 @@
     }
   ],
   "extra_curricular": [
-    "Mentoring: Helped set up and mentor Founders & Coders Nazareth",
+    "Mentoring: Helped set up and mentor Founders & Coders coding bootcamp in Nazareth",
     "Coding for Everyone Meetup: Set up a weekly meetup focussed on helping people learn how to code",
-    "Cycling: I'm a big fan of cycling around. 3 week bikepacking trip through Kyrgystan ✅",
-    "Cooking: I enjoy cooking a lot"
-  ],
-  "references": [
-    {
-      "name": "<a href='https://github.com/sofer' target='_blank'>Dan Sofer</a>",
-      "comment": "Justen, is a first-class developer with a first-class attitude. I can recommend him without reservation."
-    },
-    {
-      "name": "<a href='https://github.com/nelsonic' target='_blank'>Nelson Correia</a>",
-      "comment": "Words that comes to mind when I think of Justen: Genuine, natural, talented, can-do, focussed, fast-learner, teacher, humble, patience, quiet, humorous, reliable, punctual, well-spoken, empathetic, caring, team-player, leader. </br> He does not fit any text-book 'personality type'. He is well-rounded, grounded and determined and turns his hand to anything in his pursuit of understanding and overcoming a challenge. He is joy to work with and an asset to any team; I would be delighted to work/learn with him again!"
-    }
+    "Cycling: I'm a big fan of cycling around. 3 week bikepacking trip through Kyrgystan ✅"
   ],
   "work": [
     {
@@ -90,7 +79,7 @@
       "from_to": "May '18 - Oct '18 / Jan '20 - Jan '21",
       "stack": "React, Redux, TypeScript, NodeJS"
     },
-  
+
     {
       "name": "<a class='underline' href='https://www.spill.chat' target='_blank'>Spill</a>",
       "details": "A platform giving employees direct access to message-based therapy.",
