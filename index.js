@@ -4,6 +4,12 @@ const fs = require('fs');
 const handlebars = require('handlebars');
 const puppeteer = require('puppeteer');
 
+handlebars.registerHelper('nl2br', (value) => {
+  const text = value == null ? '' : String(value);
+  const escaped = handlebars.escapeExpression(text);
+  return new handlebars.SafeString(escaped.replace(/\r\n|\r|\n/g, '<br/>'));
+});
+
 const data = fs.readFileSync('cv.json').toString('utf-8');
 const isPDF = process.argv[2] === '--pdf';
 const source = isPDF

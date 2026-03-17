@@ -116,7 +116,7 @@
             <p class="f4">{{{this.name}}} <span class="black-40 no-underline f6">{{this.from_to}}</span></p>
             <p class="black-40 no-underline">{{this.stack}}</p>
           </div>
-          <p class="pl2 pr2 f6">{{this.details}}</p>
+          <p class="pl2 pr2 f6">{{{nl2br this.details}}}</p>
         </div>
         {{/each}}
       </div>
@@ -138,7 +138,6 @@
       </div>
       {{/each}}
     </section>
-    <footer class="f6 tc bg-green ma0 pa2">Made with Google AMP ⚡</footer>
   </main>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
 </body>

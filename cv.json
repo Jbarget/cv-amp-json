@@ -28,12 +28,18 @@
   "extra_curricular": [
     "Mentoring: Helped set up and mentor Founders & Coders coding bootcamp in Nazareth",
     "Coding for Everyone Meetup: Set up a weekly meetup focussed on helping people learn how to code",
-    "Cycling: I'm a big fan of cycling around. 3 week bikepacking trip through Kyrgystan ✅"
+    "Cycling: I'm a big fan of cycling around. 3 week bikepacking trip through Kyrgystan, Kenya & Italy, more to come..."
   ],
   "work": [
     {
+      "name": "<a class='underline' href='https://www.planes.studio/work/slice' target='_blank'>Planes</a>",
+      "details": "Lexi - AI powered lawyer contract reviews\nSlice App - Building the UK's only eSIM network available exclusively via an app",
+      "from_to": "Sep '25 - Jan '26 / Dec '23 - June '24",
+      "stack": "React Native, Expo, Typescript, GraphQL"
+    },
+    {
       "name": "<a class='underline' href='https://www.shootime.co/en' target='_blank'>Shootime</a>",
-      "details": "Creating the most beautiful photo, packshots, UGC & video content for your e-commerce platforms & marketing campaigns",
+      "details": "Helping ecommerce businesses create their digital assets with an AI-powered photo & video creation/editing platform",
       "from_to": "Feb 25 - present",
       "stack": "React, TypeScript, NextJS"
     },
@@ -48,12 +54,6 @@
       "details": "Borderless makes sponsorship effortless by bringing together the best of technology and human expertise for compliance, visa processing, sponsor licence assistance, and recruitment.",
       "from_to": "Dec '23 - June '24",
       "stack": "React, NextJS, TypeScript, Tailwind"
-    },
-    {
-      "name": "<a class='underline' href='https://www.planes.studio/work/slice' target='_blank'>Planes</a>",
-      "details": "Slice App - Building the UK's only eSIM network available exclusively via an app",
-      "from_to": "Dec '23 - June '24",
-      "stack": "React Native, Expo, Typescript, GraphQL"
     },
     {
       "name": "<a class='underline' href='https://www.thedailymuse.app/' target='_blank'>The Daily Muse</a>",
